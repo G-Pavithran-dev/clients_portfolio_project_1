@@ -16,7 +16,7 @@ const Navbar = () => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
-    <nav className="w-screen max-w-full rounded-lg bg-gray-50 border-b border-gray-200 relative">
+    <nav className="w-screen max-w-full rounded-lg bg-gray-50 border-b border-gray-200 relative z-50">
       <div className="w-full max-w-full px-6 py-4">
         <div className="w-full flex items-center justify-between">
           {/* Desktop Navigation Links */}

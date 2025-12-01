@@ -26,7 +26,7 @@ const MobileMenuDrawer = ({ isOpen, onToggle, navLinks }) => {
 
       {/* Mobile Menu Drawer */}
       {isOpen && (
-        <div className="md:hidden absolute left-0 right-0 top-full mt-2 bg-white shadow-lg rounded-b-2xl border-t border-gray-200 animate-in slide-in-from-top duration-300">
+        <div className="md:hidden absolute left-0 right-0 top-full mt-2 bg-white shadow-lg rounded-b-2xl border-t border-gray-200 animate-in slide-in-from-top duration-300 z-50">
           <div className="px-6 py-6 flex flex-col gap-3">
             {navLinks.map((link, index) => (
               <NavLink

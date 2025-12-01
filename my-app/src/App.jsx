@@ -7,6 +7,7 @@ import Service from "./pages/Service";
 import Blogs from "./pages/Blogs";
 import ContactUs from "./pages/ContactUs";
 import "./App.css";
+import HeroSection from "./globalComponent/HeroSection";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/contact" element={<ContactUs />} />
           <Route path="/footer" element={<Footer />} />
+          <Route path="/hero" element={<HeroSection />} />
         </Routes>
       </div>
     </>
