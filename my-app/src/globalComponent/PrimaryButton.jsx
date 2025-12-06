@@ -17,10 +17,16 @@ const PrimaryButton = ({
       type={type}
       onClick={onClick}
       disabled={disabled}
-      className={`${widthClass} ${bgColor} hover:bg-blue-700 text-white rounded-full py-3 px-6 font-medium transition-colors disabled:opacity-50 disabled:cursor-not-allowed ${className}`}
+      className={`${widthClass} ${bgColor} hover:bg-blue-700 flex items-center justify-center text-white rounded-full transition-colors disabled:opacity-50 disabled:cursor-not-allowed ${className}`}
       style={{
         fontFamily: "Plus Jakarta Sans",
-        fontSize: "14px",
+        fontWeight: 500,
+        fontSize: "15.78px",
+        lineHeight: "22.47px",
+        letterSpacing: "-0.08px",
+        textAlign: "center",
+        verticalAlign: "middle",
+        ...props.style,
       }}
       {...props}
     >

@@ -18,7 +18,6 @@ const AboutUs = () => {
           <span
             className="px-4 py-2 rounded-full border border-gray-500 text-gray-700 uppercase"
             style={{
-              fontFamily: "Inter",
               fontSize: "11.4px",
               fontWeight: 500,
               lineHeight: "13.73px",
@@ -38,7 +37,6 @@ const AboutUs = () => {
             className="mb-6 text-center mx-auto"
             style={{
               background: "#111111",
-              fontFamily: "Inter",
               fontSize: "34.3px",
               fontWeight: 400,
               lineHeight: "38.13px",
@@ -61,7 +59,6 @@ const AboutUs = () => {
           <p
             className="mb-8 text-center mx-auto"
             style={{
-              fontFamily: "Inter",
               fontSize: "15.3px",
               fontWeight: 300,
               lineHeight: "22.88px",
@@ -134,7 +131,6 @@ const AboutUs = () => {
                 className="mb-6"
                 style={{
                   background: "#111111",
-                  fontFamily: "Inter",
                   fontSize: "33.79px",
                   fontWeight: 400,
                   lineHeight: "37.52px",
@@ -149,10 +145,9 @@ const AboutUs = () => {
                 business
               </h2>
             </div>
-            <div className="flex items-center">
+            <div className="flex">
               <p
                 style={{
-                  fontFamily: "Inter",
                   fontSize: "15.03px",
                   fontWeight: 300,
                   lineHeight: "22.52px",

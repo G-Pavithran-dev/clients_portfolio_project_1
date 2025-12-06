@@ -15,7 +15,7 @@ const TextCard = ({
 }) => {
   return (
     <div
-      className={`${bgColor} ${textColor} ${rounded} ${padding} ${minHeight} flex flex-col justify-between relative overflow-hidden ${className}`}
+      className={`${bgColor} ${textColor} ${rounded} ${padding} ${minHeight} font-medium flex flex-col justify-between relative overflow-hidden ${className}`}
     >
       {/* Content */}
       <div className="flex flex-col justify-between h-full">
@@ -42,8 +42,8 @@ const TextCard = ({
             <h3
               className={`${headingSize} mb-2`}
               style={{
-                fontFamily: "Inter",
-                fontWeight: 600,
+                // fontFamily: "Inter",
+                fontWeight: 400,
                 lineHeight: "1",
               }}
             >

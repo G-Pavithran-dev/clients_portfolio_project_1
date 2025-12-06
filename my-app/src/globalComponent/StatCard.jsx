@@ -5,9 +5,9 @@ const StatCard = ({
   description,
   bgColor = "bg-black",
   textColor = "text-white",
-  headingSize = "text-5xl md:text-6xl lg:text-7xl",
+  headingSize = "text-4xl md:text-6xl lg:text-6xl",
   rounded = "rounded-2xl",
-  padding = "p-4",
+  padding = "p-2",
   className = "",
 }) => {
   return (
@@ -19,8 +19,8 @@ const StatCard = ({
         <h3
           className={`${headingSize}`}
           style={{
-            fontFamily: "Inter",
-            fontWeight: 600,
+            // fontFamily: "Inter",
+            fontWeight: 400,
             lineHeight: "1",
           }}
         >

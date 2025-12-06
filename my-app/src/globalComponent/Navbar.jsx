@@ -27,7 +27,7 @@ const Navbar = () => {
                 to={link.path}
                 className={({ isActive }) =>
                   `transition-colors duration-200 text-center align-middle ${
-                    isActive ? "text-button-bg" : "text-gray-700 "
+                    isActive ? "text-button-bg" : "text-[#111111] "
                   }`
                 }
                 style={{
