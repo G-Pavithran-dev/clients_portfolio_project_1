@@ -1,0 +1,254 @@
+{
+  "caseStudies": [
+    {
+      "id": 1,
+      "serviceId": 1,
+      "filters": ["All"],
+      "title": "My Rameswaram Trip – Travel & Temple Service Platform",
+      "description": "A unified digital platform built to simplify and enhance the travel experience in the Rameswaram region. This project, completed within 2 months, provides seamless booking for Hindu temple puja services, hotel accommodations, and local car rentals—all in one place.",
+      "thumbnail": "rameswaram.png",
+      "tags": ["Operational Excellence", "Client Success", "Efficiency Boost"]
+    },
+    {
+      "id": 2,
+      "serviceId": 1,
+      "filters": ["All"],
+      "title": "Seafsoft – Seafood Inventory & Export Management System",
+      "description": "Delivered a complete digital transformation for seafood companies through Seafsoft, a robust inventory management platform designed to track every operational stage—from purchase and production to export documentation.",
+      "thumbnail": "seasoft.png",
+      "tags": ["Operational Excellence", "Client Success", "Efficiency Boost"]
+    },
+    {
+      "id": 3,
+      "serviceId": 1,
+      "filters": ["UX Research", "UI Designs"],
+      "title": "Operational excellence",
+      "description": "Implemented streamlined processes that increased efficiency by 30%, enabling smoother operations and reducing redundant tasks. Our methods ensure consistency and measurable success",
+      "thumbnail": "sample-image-3.png",
+      "tags": ["Operational Excellence", "Client Success", "Efficiency Boost"]
+    },
+    {
+      "id": 4,
+      "serviceId": 1,
+      "filters": ["UX Research", "UI Designs"],
+      "title": "Construction advisory",
+      "description": "Guided a major financial restructuring that saved $1 million annually, delivering strategic insights to optimize cost-efficiency and enhance profitability for large-scale construction projects",
+      "thumbnail": "sample-image-4.png",
+      "tags": ["Operational Excellence", "Client Success", "Efficiency Boost"]
+    },
+    {
+      "id": 5,
+      "serviceId": 1,
+      "filters": ["All", "UX Research", "UI Designs"],
+      "title": "Hospitality Solutions",
+      "description": "Deployed a new CRM system that improved client engagement and satisfaction, driving seamless communication and enhancing customer retention across the hospitality sector.",
+      "thumbnail": "sample-image-1.png",
+      "tags": ["Operational Excellence", "Client Success", "Efficiency Boost"]
+    },
+    {
+      "id": 6,
+      "serviceId": 1,
+      "filters": ["All", "UX Research", "UI Designs"],
+      "title": "Firefighting communication",
+      "description": "Developed robust communication protocols that reduced response times by 40%, ensuring timely and efficient coordination during critical firefighting operations.",
+      "thumbnail": "sample-image-2.png",
+      "tags": ["Operational Excellence", "Client Success", "Efficiency Boost"]
+    },
+    {
+      "id": 7,
+      "serviceId": 2,
+      "filters": [
+        "All",
+        "SEO",
+        "Google Ads",
+        "Meta Ads",
+        "Social Media Management",
+        "E-Com Product Listing",
+        "Website Analytics"
+      ],
+      "title": "Operational excellence",
+      "description": "Implemented streamlined processes that increased efficiency by 30%, enabling smoother operations and reducing redundant tasks. Our methods ensure consistency and measurable success",
+      "thumbnail": "sample-image-3.png",
+      "tags": ["Operational Excellence", "Client Success", "Efficiency Boost"]
+    },
+    {
+      "id": 8,
+      "serviceId": 2,
+      "filters": [
+        "All",
+        "SEO",
+        "Google Ads",
+        "Meta Ads",
+        "Social Media Management",
+        "E-Com Product Listing",
+        "Website Analytics"
+      ],
+      "title": "Construction advisory",
+      "description": "Guided a major financial restructuring that saved $1 million annually, delivering strategic insights to optimize cost-efficiency and enhance profitability for large-scale construction projects",
+      "thumbnail": "sample-image-4.png",
+      "tags": ["Operational Excellence", "Client Success", "Efficiency Boost"]
+    },
+    {
+      "id": 9,
+      "serviceId": 2,
+      "filters": [
+        "All",
+        "SEO",
+        "Google Ads",
+        "Meta Ads",
+        "Social Media Management",
+        "E-Com Product Listing",
+        "Website Analytics"
+      ],
+      "title": "Hospitality Solutions",
+      "description": "Deployed a new CRM system that improved client engagement and satisfaction, driving seamless communication and enhancing customer retention across the hospitality sector.",
+      "thumbnail": "sample-image-1.png",
+      "tags": ["Operational Excellence", "Client Success", "Efficiency Boost"]
+    },
+    {
+      "id": 10,
+      "serviceId": 2,
+      "filters": [
+        "All",
+        "SEO",
+        "Google Ads",
+        "Meta Ads",
+        "Social Media Management",
+        "E-Com Product Listing",
+        "Website Analytics"
+      ],
+      "title": "Firefighting communication",
+      "description": "Developed robust communication protocols that reduced response times by 40%, ensuring timely and efficient coordination during critical firefighting operations.",
+      "thumbnail": "sample-image-2.png",
+      "tags": ["Operational Excellence", "Client Success", "Efficiency Boost"]
+    },
+    {
+      "id": 11,
+      "serviceId": 3,
+      "filters": [
+        "All",
+        "Company Research Report",
+        "Fundamental Analysis",
+        "Valuation Model",
+        "Industry & Sector Analysis",
+        "Quarterly Reports Review",
+        "Market Insights"
+      ],
+      "title": "Operational excellence",
+      "description": "Implemented streamlined processes that increased efficiency by 30%, enabling smoother operations and reducing redundant tasks. Our methods ensure consistency and measurable success",
+      "thumbnail": "sample-image-3.png",
+      "tags": ["Operational Excellence", "Client Success", "Efficiency Boost"]
+    },
+    {
+      "id": 12,
+      "serviceId": 3,
+      "filters": [
+        "All",
+        "Company Research Report",
+        "Fundamental Analysis",
+        "Valuation Model",
+        "Industry & Sector Analysis",
+        "Quarterly Reports Review",
+        "Market Insights"
+      ],
+      "title": "Construction advisory",
+      "description": "Guided a major financial restructuring that saved $1 million annually, delivering strategic insights to optimize cost-efficiency and enhance profitability for large-scale construction projects",
+      "thumbnail": "sample-image-4.png",
+      "tags": ["Operational Excellence", "Client Success", "Efficiency Boost"]
+    },
+    {
+      "id": 13,
+      "serviceId": 3,
+      "filters": [
+        "All",
+        "Company Research Report",
+        "Fundamental Analysis",
+        "Valuation Model",
+        "Industry & Sector Analysis",
+        "Quarterly Reports Review",
+        "Market Insights"
+      ],
+      "title": "Hospitality Solutions",
+      "description": "Deployed a new CRM system that improved client engagement and satisfaction, driving seamless communication and enhancing customer retention across the hospitality sector.",
+      "thumbnail": "sample-image-1.png",
+      "tags": ["Operational Excellence", "Client Success", "Efficiency Boost"]
+    },
+    {
+      "id": 14,
+      "serviceId": 3,
+      "filters": [
+        "All",
+        "Company Research Report",
+        "Fundamental Analysis",
+        "Valuation Model",
+        "Industry & Sector Analysis",
+        "Quarterly Reports Review",
+        "Market Insights"
+      ],
+      "title": "Firefighting communication",
+      "description": "Developed robust communication protocols that reduced response times by 40%, ensuring timely and efficient coordination during critical firefighting operations.",
+      "thumbnail": "sample-image-2.png",
+      "tags": ["Operational Excellence", "Client Success", "Efficiency Boost"]
+    },
+    {
+      "id": 15,
+      "serviceId": 4,
+      "filters": [
+        "All",
+        "Digital Marketing",
+        "UI Designs",
+        "Google Ads",
+        "SEO"
+      ],
+      "title": "Operational excellence",
+      "description": "Implemented streamlined processes that increased efficiency by 30%, enabling smoother operations and reducing redundant tasks. Our methods ensure consistency and measurable success",
+      "thumbnail": "sample-image-3.png",
+      "tags": ["Operational Excellence", "Client Success", "Efficiency Boost"]
+    },
+    {
+      "id": 16,
+      "serviceId": 4,
+      "filters": [
+        "All",
+        "Digital Marketing",
+        "UI Designs",
+        "Google Ads",
+        "SEO"
+      ],
+      "title": "Construction advisory",
+      "description": "Guided a major financial restructuring that saved $1 million annually, delivering strategic insights to optimize cost-efficiency and enhance profitability for large-scale construction projects",
+      "thumbnail": "sample-image-4.png",
+      "tags": ["Operational Excellence", "Client Success", "Efficiency Boost"]
+    },
+    {
+      "id": 17,
+      "serviceId": 4,
+      "filters": [
+        "All",
+        "Digital Marketing",
+        "UI Designs",
+        "Google Ads",
+        "SEO"
+      ],
+      "title": "Hospitality Solutions",
+      "description": "Deployed a new CRM system that improved client engagement and satisfaction, driving seamless communication and enhancing customer retention across the hospitality sector.",
+      "thumbnail": "sample-image-1.png",
+      "tags": ["Operational Excellence", "Client Success", "Efficiency Boost"]
+    },
+    {
+      "id": 18,
+      "serviceId": 4,
+      "filters": [
+        "All",
+        "Digital Marketing",
+        "UI Designs",
+        "Google Ads",
+        "SEO"
+      ],
+      "title": "Firefighting communication",
+      "description": "Developed robust communication protocols that reduced response times by 40%, ensuring timely and efficient coordination during critical firefighting operations.",
+      "thumbnail": "sample-image-2.png",
+      "tags": ["Operational Excellence", "Client Success", "Efficiency Boost"]
+    }
+  ]
+}
