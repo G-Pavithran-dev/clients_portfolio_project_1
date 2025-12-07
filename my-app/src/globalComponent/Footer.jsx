@@ -1,13 +1,11 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import {
-  FaFacebookF,
-  FaLinkedinIn,
-  FaTwitter,
-  FaInstagram,
-} from "react-icons/fa";
 import navisLogo from "../assets/navisLogo.png";
+import facebookIcon from "../assets/Footer_images/facebook_icon.png";
+import linkedinIcon from "../assets/Footer_images/linkedin_icon.png";
+import twitterIcon from "../assets/Footer_images/twittet_icon.png";
+import instagramIcon from "../assets/Footer_images/instagram_icon.png";
 
 const Footer = () => {
   const [email, setEmail] = useState("");
@@ -59,10 +57,10 @@ const Footer = () => {
   };
 
   const socialLinks = [
-    { icon: FaFacebookF, href: "#", label: "Facebook" },
-    { icon: FaLinkedinIn, href: "#", label: "LinkedIn" },
-    { icon: FaTwitter, href: "#", label: "Twitter" },
-    { icon: FaInstagram, href: "#", label: "Instagram" },
+    { icon: facebookIcon, href: "#", label: "Facebook" },
+    { icon: linkedinIcon, href: "#", label: "LinkedIn" },
+    { icon: twitterIcon, href: "#", label: "Twitter" },
+    { icon: instagramIcon, href: "#", label: "Instagram" },
   ];
 
   return (
@@ -86,14 +84,12 @@ const Footer = () => {
           {/* Newsletter */}
           <h3
             style={{
-              fontFamily: "Inter",
               fontWeight: 400,
               fontSize: "22.9px",
               lineHeight: "30.5px",
               letterSpacing: "-0.92px",
               verticalAlign: "middle",
-              width: "243.58px",
-              height: "24.76px",
+
               opacity: 1,
             }}
             className="mb-4"
@@ -108,7 +104,6 @@ const Footer = () => {
               placeholder="Enter your email"
               className="w-full px-4 py-3 rounded-full bg-[#3A3A3A] text-white placeholder-gray-400 border border-transparent focus:border-blue-500 focus:outline-none"
               style={{
-                fontFamily: "Inter",
                 fontSize: "14px",
               }}
             />
@@ -138,7 +133,6 @@ const Footer = () => {
                       : "text-gray-300 hover:text-white"
                   }`}
                   style={{
-                    fontFamily: "Inter",
                     fontSize: "14px",
                     fontWeight: link.name === "Services" ? 500 : 400,
                   }}
@@ -156,7 +150,6 @@ const Footer = () => {
                   to={link.path}
                   className="text-gray-300 hover:text-white transition-colors"
                   style={{
-                    fontFamily: "Inter",
                     fontSize: "14px",
                     fontWeight: 400,
                   }}
@@ -169,16 +162,16 @@ const Footer = () => {
 
           {/* Social Icons */}
           <div className="flex justify-center gap-6 mb-6">
-            {socialLinks.map(({ icon: Icon, href, label }) => (
+            {socialLinks.map(({ icon, href, label }) => (
               <a
                 key={label}
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-12 h-12 bg-[#3A3A3A] rounded-full flex items-center justify-center text-gray-400 hover:text-white hover:bg-gray-700 transition-colors"
+                className="w-12 h-12 rounded-full border border-gray-500 flex items-center justify-center hover:border-white transition-colors"
                 aria-label={label}
               >
-                <Icon size={20} />
+                <img src={icon} alt={label} className="w-5 h-5" />
               </a>
             ))}
           </div>
@@ -187,7 +180,6 @@ const Footer = () => {
           <div
             className="text-center text-gray-400"
             style={{
-              fontFamily: "Inter",
               fontWeight: 400,
               fontSize: "12px",
               lineHeight: "17.96px",
@@ -199,15 +191,14 @@ const Footer = () => {
         </div>
 
         {/* Desktop Layout */}
-        <div className="hidden md:flex md:justify-around md:items-start">
+        <div className="hidden md:grid md:grid-cols-5 lg:gap-12 mb-14">
           {/* Newsletter Section - Left Side */}
-          <div className="pt-6">
+          <div className="md:col-span-3">
             <h3
-              className="mb-4"
+              className="text-white mb-4"
               style={{
-                fontFamily: "Inter",
-                fontSize: "16px",
-                fontWeight: 400,
+                fontSize: "18px",
+                fontWeight: 500,
               }}
             >
               Subscribe to our news later
@@ -218,19 +209,17 @@ const Footer = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="Enter your email"
-                className="px-4 py-2.5 rounded-full bg-[#3A3A3A] text-white placeholder-gray-500 border border-transparent focus:border-blue-500 focus:outline-none"
+                className="px-4  rounded-full bg-[#3A3A3A] text-white placeholder-gray-400 border border-transparent focus:border-blue-500 focus:outline-none"
                 style={{
-                  fontFamily: "Inter",
-                  fontSize: "13px",
-                  width: "180px",
+                  fontSize: "14px",
                 }}
               />
               <Button
                 type="submit"
-                className="bg-button-bg hover:bg-blue-700 text-white rounded-full px-6 py-2.5 font-medium"
+                className="bg-button-bg hover:bg-blue-700 text-white rounded-full px-5 py-3 font-medium"
                 style={{
                   fontFamily: "Plus Jakarta Sans",
-                  fontSize: "13px",
+                  fontSize: "14px",
                 }}
               >
                 Subscribe
@@ -238,17 +227,15 @@ const Footer = () => {
             </form>
           </div>
 
-          {/* Links Columns - Right Side */}
-          <div className="flex gap-x-8 lg:gap-x-12">
+          <div className="md:col-span-2 flex gap-16 md:gap-24">
             {/* Links Column 1 */}
             <div className="flex flex-col gap-3">
               {footerLinks.column1.map((link) => (
                 <Link
                   key={link.name}
                   to={link.path}
-                  className="text-gray-300 hover:text-white transition-colors whitespace-nowrap"
+                  className="text-gray-300 hover:text-white transition-colors"
                   style={{
-                    fontFamily: "Inter",
                     fontSize: "14px",
                     fontWeight: 400,
                   }}
@@ -264,9 +251,8 @@ const Footer = () => {
                 <Link
                   key={link.name}
                   to={link.path}
-                  className="text-gray-300 hover:text-white transition-colors whitespace-nowrap"
+                  className="text-gray-300 hover:text-white transition-colors"
                   style={{
-                    fontFamily: "Inter",
                     fontSize: "14px",
                     fontWeight: 400,
                   }}
@@ -278,15 +264,18 @@ const Footer = () => {
 
             {/* Links Column 3 */}
             <div className="flex flex-col gap-3">
-              {footerLinks.column3.map((link) => (
+              {footerLinks.column3.map((link, index) => (
                 <Link
                   key={link.name}
                   to={link.path}
-                  className="text-gray-300 hover:text-white transition-colors whitespace-nowrap"
+                  className={`transition-colors ${
+                    index === 3
+                      ? "text-white font-semibold"
+                      : "text-gray-300 hover:text-white"
+                  }`}
                   style={{
-                    fontFamily: "Inter",
                     fontSize: "14px",
-                    fontWeight: 400,
+                    fontWeight: index === 3 ? 600 : 400,
                   }}
                 >
                   {link.name}
@@ -297,45 +286,41 @@ const Footer = () => {
         </div>
 
         {/* Desktop Bottom Section */}
-        <div className="hidden md:flex flex-row justify-between items-center pt-12 mt-12">
+        <div className="w-full hidden md:flex   md:pt-6 flex-wrap justify-between items-center gap-6">
           {/* Designer Credit */}
-          <div
-            className="text-gray-400"
+          <p
+            className="text-gray-400 text-sm"
             style={{
-              fontFamily: "Inter",
               fontWeight: 400,
-              fontSize: "12px",
-              letterSpacing: "-0.36px",
+              fontSize: "14px",
             }}
           >
             Designed by Arunijone
-          </div>
+          </p>
 
           {/* Copyright */}
-          <div
-            className="text-gray-400"
+          <p
+            className="text-gray-400 text-sm"
             style={{
-              fontFamily: "Inter",
               fontWeight: 400,
-              fontSize: "12px",
-              letterSpacing: "-0.36px",
+              fontSize: "14px",
             }}
           >
             © 2025 Arunijone. All rights reserved.
-          </div>
+          </p>
 
           {/* Social Icons */}
-          <div className="flex gap-4">
-            {socialLinks.map(({ icon: Icon, href, label }) => (
+          <div className="flex gap-3">
+            {socialLinks.map(({ icon, href, label }) => (
               <a
                 key={label}
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition-colors"
+                className="w-9 h-9 rounded-full border border-gray-700 flex items-center justify-center hover:border-white transition-colors"
                 aria-label={label}
               >
-                <Icon size={20} />
+                <img src={icon} alt={label} className="w-4 h-4" />
               </a>
             ))}
           </div>

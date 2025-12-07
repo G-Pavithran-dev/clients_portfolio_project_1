@@ -180,7 +180,7 @@ const AboutUs = () => {
               bgColor="bg-[#232323]"
               textColor="text-white"
               headingSize="text-6xl"
-              descriptionSize="text-sm"
+              descriptionSize="text-lg"
               className="h-full"
             />
 

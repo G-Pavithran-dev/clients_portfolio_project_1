@@ -97,7 +97,6 @@ const Blog = () => {
               <span
                 className="px-4 py-2 rounded-full border border-gray-500 text-gray-700 uppercase"
                 style={{
-                  fontFamily: "Inter",
                   fontSize: "11.4px",
                   fontWeight: 500,
                   lineHeight: "13.73px",
@@ -114,7 +113,6 @@ const Blog = () => {
             <h2
               className="mb-6 lg:mb-0"
               style={{
-                fontFamily: "Inter",
                 fontSize: "33.79px",
                 fontWeight: 400,
                 lineHeight: "37.52px",
@@ -131,7 +129,6 @@ const Blog = () => {
             onClick={currentPage === 0 ? handleViewAll : handleShowPrevious}
             className="px-6 py-3 bg-button-bg text-white rounded-full flex items-center gap-2 hover:opacity-90 transition-opacity lg:mt-0"
             style={{
-              fontFamily: "Inter",
               fontSize: "14px",
               fontWeight: 500,
             }}
@@ -180,11 +177,10 @@ const Blog = () => {
                 <h3
                   className="mb-4"
                   style={{
-                    fontFamily: "Inter",
                     fontSize: "20px",
                     fontWeight: 500,
                     lineHeight: "28px",
-                    color: "#111111",
+                    color: "rgba(17, 17, 17, 0.8)",
                   }}
                 >
                   {item.title}
@@ -193,11 +189,10 @@ const Blog = () => {
                 <p
                   className="mb-6"
                   style={{
-                    fontFamily: "Inter",
                     fontSize: "14px",
                     fontWeight: 300,
                     lineHeight: "20px",
-                    color: "#666666",
+                    color: "rgba(17, 17, 17, 0.6)",
                   }}
                 >
                   {item.description}
@@ -213,7 +208,6 @@ const Blog = () => {
                   <div>
                     <p
                       style={{
-                        fontFamily: "Inter",
                         fontSize: "14px",
                         fontWeight: 500,
                         color: "#111111",
@@ -223,7 +217,6 @@ const Blog = () => {
                     </p>
                     <p
                       style={{
-                        fontFamily: "Inter",
                         fontSize: "12px",
                         fontWeight: 400,
                         color: "#666666",
@@ -265,11 +258,10 @@ const Blog = () => {
                     <h3
                       className="mb-4"
                       style={{
-                        fontFamily: "Inter",
                         fontSize: "20px",
                         fontWeight: 500,
                         lineHeight: "28px",
-                        color: "#111111",
+                        color: "rgba(17, 17, 17, 0.8)",
                       }}
                     >
                       {item.title}
@@ -278,11 +270,10 @@ const Blog = () => {
                     <p
                       className="mb-6"
                       style={{
-                        fontFamily: "Inter",
                         fontSize: "14px",
                         fontWeight: 300,
                         lineHeight: "20px",
-                        color: "#666666",
+                        color: "rgba(17, 17, 17, 0.6)",
                       }}
                     >
                       {item.description}
@@ -298,7 +289,6 @@ const Blog = () => {
                       <div>
                         <p
                           style={{
-                            fontFamily: "Inter",
                             fontSize: "14px",
                             fontWeight: 500,
                             color: "#111111",
@@ -308,7 +298,6 @@ const Blog = () => {
                         </p>
                         <p
                           style={{
-                            fontFamily: "Inter",
                             fontSize: "12px",
                             fontWeight: 400,
                             color: "#666666",

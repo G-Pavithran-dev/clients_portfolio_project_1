@@ -5,6 +5,8 @@ import seaSoftImg from "@/assets/Home's_images/seaSoft_img.png";
 import container3Img from "@/assets/Home's_images/container3-img.png";
 import container4Img from "@/assets/Home's_images/container4_img.png";
 import mobileOpenImg from "@/assets/Home's_images/mobile's_openImg.png";
+import leftArrow from "@/assets/Home's_images/leftArrow.png";
+import rightArrow from "@/assets/Home's_images/rightArrow.png";
 
 const Portfolio = () => {
   const [showAll, setShowAll] = useState(false);
@@ -113,7 +115,7 @@ const Portfolio = () => {
               <span
                 className="px-4 py-2 rounded-full border border-gray-500 text-gray-700 uppercase"
                 style={{
-                  fontFamily: "Inter",
+                  // fontFamily: "Inter",
                   fontSize: "11.4px",
                   fontWeight: 500,
                   lineHeight: "13.73px",
@@ -130,7 +132,6 @@ const Portfolio = () => {
             <h2
               className="mb-6 lg:mb-0"
               style={{
-                fontFamily: "Inter",
                 fontSize: "33.79px",
                 fontWeight: 400,
                 lineHeight: "37.52px",
@@ -138,9 +139,16 @@ const Portfolio = () => {
                 color: "#111111",
               }}
             >
-              Real Results. Real Impact.
-              <br />
-              Our Success Stories.
+              <span className="lg:hidden">
+                Our Success Stories Real
+                <br />
+                Results, Real Impact
+              </span>
+              <span className="hidden lg:inline">
+                Real Results. Real Impact.
+                <br />
+                Our Success Stories.
+              </span>
             </h2>
           </div>
 
@@ -149,7 +157,7 @@ const Portfolio = () => {
             onClick={handleSeeMore}
             className="px-6 py-3 bg-button-bg text-white rounded-full flex items-center gap-2 hover:opacity-90 transition-opacity lg:mt-0"
             style={{
-              fontFamily: "Inter",
+              // fontFamily: "Inter",
               fontSize: "14px",
               fontWeight: 500,
             }}
@@ -228,11 +236,10 @@ const Portfolio = () => {
                 <h3
                   className="mb-4"
                   style={{
-                    fontFamily: "Inter",
                     fontSize: "20px",
                     fontWeight: 500,
                     lineHeight: "28px",
-                    color: "#111111",
+                    color: "rgba(17, 17, 17, 0.8)",
                   }}
                 >
                   {item.title}
@@ -241,11 +248,10 @@ const Portfolio = () => {
                 <p
                   className="mb-6"
                   style={{
-                    fontFamily: "Inter",
                     fontSize: "14px",
                     fontWeight: 300,
                     lineHeight: "20px",
-                    color: "#666666",
+                    color: "rgba(17, 17, 17, 0.6)",
                   }}
                 >
                   {item.description}
@@ -258,10 +264,10 @@ const Portfolio = () => {
                       key={idx}
                       className="px-3 py-1 rounded-full text-xs border border-gray-300"
                       style={{
-                        fontFamily: "Inter",
                         fontSize: "11px",
                         fontWeight: 400,
-                        color: "#666666",
+                        color: "rgba(17, 17, 17, 0.8)",
+                        background: "rgba(1, 97, 254, 0.1)",
                       }}
                     >
                       {tag}
@@ -350,11 +356,10 @@ const Portfolio = () => {
                   <h3
                     className="mb-4"
                     style={{
-                      fontFamily: "Inter",
                       fontSize: "20px",
-                      fontWeight: 500,
+                      fontWeight: 400,
                       lineHeight: "28px",
-                      color: "#111111",
+                      color: "rgba(17, 17, 17, 0.8)",
                     }}
                   >
                     {portfolioItems[currentMobileIndex - 1].title}
@@ -363,11 +368,10 @@ const Portfolio = () => {
                   <p
                     className="mb-6"
                     style={{
-                      fontFamily: "Inter",
                       fontSize: "14px",
                       fontWeight: 300,
                       lineHeight: "20px",
-                      color: "#666666",
+                      color: "rgba(17, 17, 17, 0.6)",
                     }}
                   >
                     {portfolioItems[currentMobileIndex - 1].description}
@@ -381,10 +385,10 @@ const Portfolio = () => {
                           key={idx}
                           className="px-3 py-1 rounded-full text-xs border border-gray-300"
                           style={{
-                            fontFamily: "Inter",
                             fontSize: "11px",
                             fontWeight: 400,
-                            color: "#666666",
+                            color: "rgba(17, 17, 17, 0.8)",
+                            background: "rgba(1, 97, 254, 0.1)",
                           }}
                         >
                           {tag}
@@ -397,15 +401,14 @@ const Portfolio = () => {
 
               {/* Intro Screen Content */}
               {currentMobileIndex === 0 && (
-                <div className="text-center">
+                <div>
                   <h3
                     className="mb-4"
                     style={{
-                      fontFamily: "Inter",
                       fontSize: "24px",
-                      fontWeight: 500,
+                      fontWeight: 400,
                       lineHeight: "32px",
-                      color: "#111111",
+                      color: "rgba(17, 17, 17, 0.8)",
                     }}
                   >
                     Operational excellence
@@ -414,11 +417,10 @@ const Portfolio = () => {
                   <p
                     className="mb-6"
                     style={{
-                      fontFamily: "Inter",
                       fontSize: "14px",
                       fontWeight: 300,
                       lineHeight: "20px",
-                      color: "#666666",
+                      color: "rgba(17, 17, 17, 0.6)",
                     }}
                   >
                     Implemented streamlined processes that increased efficiency
@@ -431,10 +433,11 @@ const Portfolio = () => {
                     <span
                       className="px-3 py-1 rounded-full text-xs border border-gray-300"
                       style={{
-                        fontFamily: "Inter",
                         fontSize: "11px",
                         fontWeight: 400,
-                        color: "#666666",
+                        color: "rgba(17, 17, 17, 0.8)",
+
+                        background: "rgba(1, 97, 254, 0.1)",
                       }}
                     >
                       Operational Excellence
@@ -442,10 +445,11 @@ const Portfolio = () => {
                     <span
                       className="px-3 py-1 rounded-full text-xs border border-gray-300"
                       style={{
-                        fontFamily: "Inter",
                         fontSize: "11px",
                         fontWeight: 400,
-                        color: "#666666",
+                        color: "rgba(17, 17, 17, 0.8)",
+
+                        background: "rgba(1, 97, 254, 0.1)",
                       }}
                     >
                       Client Success
@@ -453,10 +457,10 @@ const Portfolio = () => {
                     <span
                       className="px-3 py-1 rounded-full text-xs border border-gray-300"
                       style={{
-                        fontFamily: "Inter",
                         fontSize: "11px",
                         fontWeight: 400,
-                        color: "#666666",
+                        color: "rgba(17, 17, 17, 0.8)",
+                        background: "rgba(1, 97, 254, 0.1)",
                       }}
                     >
                       Efficiency Boost
@@ -474,10 +478,10 @@ const Portfolio = () => {
                 className={`p-3 rounded-full border-2 border-button-bg transition-all group ${
                   currentMobileIndex === 0
                     ? "opacity-50 cursor-not-allowed"
-                    : "hover:bg-button-bg hover:text-white"
+                    : "hover:bg-gray-100"
                 }`}
               >
-                <ChevronLeft className="w-5 h-5 text-button-bg group-hover:text-white transition-colors" />
+                <img src={leftArrow} alt="Previous" className="w-5 h-5" />
               </button>
               <button
                 onClick={handleMobileNext}
@@ -485,10 +489,10 @@ const Portfolio = () => {
                 className={`p-3 rounded-full border-2 border-button-bg transition-all group ${
                   currentMobileIndex === portfolioItems.length
                     ? "opacity-50 cursor-not-allowed"
-                    : "hover:bg-button-bg hover:text-white"
+                    : "hover:bg-gray-100"
                 }`}
               >
-                <ChevronRight className="w-5 h-5 text-button-bg group-hover:text-white transition-colors" />
+                <img src={rightArrow} alt="Next" className="w-5 h-5" />
               </button>
             </div>
           </div>

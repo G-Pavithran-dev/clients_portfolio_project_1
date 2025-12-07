@@ -55,7 +55,7 @@ const TextCard = ({
           {description && (
             <p
               style={{
-                fontFamily: "Inter",
+                // fontFamily: "Inter",
                 fontWeight: 500,
                 fontSize: "13.16px",
                 lineHeight: "18.65px",
